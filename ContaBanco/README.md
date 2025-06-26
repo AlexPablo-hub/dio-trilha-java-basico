@@ -29,7 +29,7 @@ Criar uma aplicação simples chamada `ContaBanco` que:
 #### 1. Configuração do Locale e Scanner
 ```java
 Locale.setDefault(Locale.US);
-Scanner var1 = new Scanner(System.in);
+Scanner sc = new Scanner(System.in);
 ```
 Garante que o sistema utilize o ponto (.) como separador decimal, evitando problemas na leitura de valores double em sistemas configurados para português (como Windows em PT-BR).
 
